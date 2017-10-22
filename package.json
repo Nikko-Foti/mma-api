@@ -1,0 +1,16 @@
+{
+  "name": "mma-api",
+  "version": "1.0.0",
+  "description": "api's that read from Cassandra database full of MMA fighters.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikko Foti",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cassandra-driver": "^3.3.0",
+    "express": "^4.16.2"
+  }
+}
